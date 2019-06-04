@@ -1,0 +1,1 @@
+{"version":3,"sources":["form.scss"],"names":[],"mappings":"AAAA,MACE,sBAA0B,AAC1B,mBAAoB,AACpB,mBAAoB,AACpB,iBAAkB,AAClB,YAAc,CAIf,AATD,WAOI,SAAW,CACZ","file":"form.css","sourcesContent":[".form{\n  background-color: #ffffff;\n  border-radius: 10px;\n  margin-bottom: 20px;\n  min-height: 100vh;\n  padding: 40px;\n  form {\n    width: 60%;\n  }\n}"]}
