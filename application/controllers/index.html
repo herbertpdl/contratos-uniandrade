@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Contrato Uniandrade</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+	<form name="form" method="post" action="php/gerar_pdf.php">
+		<div class="row">
+			<div class="col-xs-3">
+				<label>Nome</label>
+				<input type="text" class="form-control" name="nomeAluno">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-3">
+				<label>CPF:</label>
+				<input type="text" class="form-control" name="cpfAluno">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-3">
+				<label>Email:</label>
+				<input type="text" class="form-control" name="emailAluno">
+			</div>
+		</div>
+	</br>
+	<button type="submit" class="btn btn-primaty">GERAR</button>
+</form>
+</body>
+</html>
