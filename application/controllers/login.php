@@ -14,12 +14,14 @@ class Login extends CI_Controller {
 		if(isset($_POST['senha'])){
 			$this->load->model('usuario_model');
 			if($this->usuario_model->login($_POST['username'],md5($_POST['senha']))){
-				redirect('gerarpdf');
+				redirect('/gerarpdf');
 			}else{
-				redirect('login');
+				redirect('/login');
 			}
 		}
 
-		$this->load->view('login');
+		$data['view'] = 'login';
+
+		$this->load->view('_layout', $data);
 	}
 }

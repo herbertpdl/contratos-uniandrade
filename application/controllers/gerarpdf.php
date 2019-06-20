@@ -5,6 +5,9 @@ class Gerarpdf extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('index');
+
+		$data['view'] = 'tec_coop';
+
+		$this->load->view('_layout', $data);
 	}
 }
