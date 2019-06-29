@@ -39,6 +39,8 @@
 		<?php
 			$this->load->view($view);
 		?>
+		<script src="dist/scripts/main.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+		<script src="dist/scripts/script.js"></script>
 	</body>
-	<script src="dist/scripts/main.min.js"></script>
 </html>
