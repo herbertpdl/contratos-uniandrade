@@ -1,0 +1,1 @@
+{"version":3,"sources":["cooperation_term.scss"],"names":[],"mappings":"AAAA,OACE,UAAW,AACX,kBAAmB,AACnB,yBAA0B,AAC1B,QAAU,CACX","file":"cooperation_term.css","sourcesContent":[".title{\r\n  color: red;\r\n  text-align: center;\r\n  text-transform: uppercase;\r\n  margin: 0;\r\n}"]}
