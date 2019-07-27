@@ -10,6 +10,8 @@ class Formulario extends CI_Controller {
 	public $cidade;
 	public $estado;
 	public $cnpj;
+	public $responsavel;
+	public $date;
 
 	public function __construct()
 	{
@@ -19,7 +21,7 @@ class Formulario extends CI_Controller {
 	public function index()
 	{
 
-		$data['view'] = 'formulario_view';
+		$data['view'] = 'coop-tecnica';
 
 		$this->load->view('_layout', $data);
 		//redirect()

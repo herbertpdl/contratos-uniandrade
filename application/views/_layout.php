@@ -21,8 +21,8 @@
 					<nav class="navbar navbar-expand navbar- bg-light">
 						<div class="collapse navbar-collapse" id="navbarSupportedContent">
 							<ul class="nav nav-pills  mr-auto">
-								<li class="nav-item active">
-									<a class="nav-link active" href="#">Termo de cooperação técnica</a>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Termo de cooperação técnica</a>
 								</li>
 								<li class="nav-item">
 									<a class="nav-link" href="#">Termo obrigatório</a>

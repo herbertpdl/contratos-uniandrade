@@ -38,6 +38,8 @@ CREATE TABLE IF NOT EXISTS `contratos` (
   `estado` varchar(50) NOT NULL,
   `cidade` varchar(50) NOT NULL,
   `cnpj` varchar(20) NOT NULL,
+  `responsavel` varchar(100) NOT NULL,
+  `date` varchar(10) NOT NULL 
   PRIMARY KEY (`cod_contrato`)
 ) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 COMMIT;
