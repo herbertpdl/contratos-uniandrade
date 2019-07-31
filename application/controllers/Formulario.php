@@ -27,17 +27,34 @@ class Formulario extends CI_Controller {
 		//redirect()
 	}
 
+	public function termo_obrigatorio()
+	{
+		$data['view'] = 'termo-compromisso';
+
+		$this->load->view('_layout', $data);
+	}
+
 	public function consultaCep($cep)
     {
         $this->load->library('curl');
         echo $this->curl->consulta($cep);   
     }
 
-	public function gerarPdf()
+	public function gerarPdfCoop()
 	{
 		$this->load->library('pdf_helper');
 		$data = $this->input->post();
 		$html = $this->load->view('PDF/pdf_layout', $data, true);
+		$filename = 'pdf_'.time();//NOME DO PDF
+		$this->pdf_helper->generate($html, $filename, true, 'A4', 'portrait');
+		$this->db->insert('contratos', $data); //insere dados no banco.
+	}
+
+	public function gerarPdfObrigatorio()
+	{
+		$this->load->library('pdf_helper');
+		$data = $this->input->post();
+		$html = $this->load->view('PDF/pdf_layout2', $data, true);
 		$filename = 'pdf_'.time();//NOME DO PDF
 		$this->pdf_helper->generate($html, $filename, true, 'A4', 'portrait');
 		$this->db->insert('contratos', $data); //insere dados no banco.

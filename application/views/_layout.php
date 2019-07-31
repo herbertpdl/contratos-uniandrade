@@ -22,10 +22,10 @@
 						<div class="collapse navbar-collapse" id="navbarSupportedContent">
 							<ul class="nav nav-pills  mr-auto">
 								<li class="nav-item">
-									<a class="nav-link" href="#">Termo de cooperação técnica</a>
+									<a class="nav-link" href="<?php echo site_url('teste');?>">Termo de cooperação técnica</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="#">Termo obrigatório</a>
+									<a class="nav-link" href="<?php echo site_url('termo-obrigatorio');?>">Termo obrigatório</a>
 								</li>
 							</ul>
 							<button class="btn btn-primary">

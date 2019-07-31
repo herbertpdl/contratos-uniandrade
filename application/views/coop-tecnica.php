@@ -4,7 +4,7 @@
 				<div class="form">
 					<h3>TERMO DE COOPERAÇÃO TÉCNICA</h3>					
 					<p>Por favor, insira abaixo, os dados referentes à <strong>UNIDADE CEDENTE (EMPRESA)</strong></p>
-					<form action="Formulario/gerarPdf" method="POST">
+					<form action="Formulario/gerarPdfCoop" method="POST">
 						<div class="form-group">
 							<div class="form-group">
 								<label for="nome">Nome</label>
