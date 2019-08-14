@@ -91,49 +91,49 @@
       <table cellspacing="0" style="width: 100%">
         <tr>
           <td colspan="2">
-            <p class="clausule-description" style="margin: 0">XXXXXXXXXXXXXXXXXXXXXXXXX(EMPRESA, ESCOLA OU HOPSITAL)</p>
+            <p class="clausule-description" style="margin: 0"> <?php echo $nameCompany?></p>
           </td>
         </tr>
         <tr>
           <td colspan="2">
-            <p class="clausule-description" style="margin: 0">Endereço: XXXXXXXX</p>
+            <p class="clausule-description" style="margin: 0">Endereço: <?php echo $addressCompany?></p>
           </td>
         </tr>
         <tr>
           <td>
-            <p class="clausule-description" style="margin: 0">Cidade: XXXXXXXX</p>
+            <p class="clausule-description" style="margin: 0">Cidade: <?php echo $cityCompany?></p>
           </td>
           <td>
-            <p class="clausule-description" style="margin: 0">XXXXXXXX</p>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <p class="clausule-description" style="margin: 0">CEP: XXXXXXXX</p>
-          </td>
-          <td>
-            <p class="clausule-description" style="margin: 0">Fone: XXXXXXXX</p>
+            <p class="clausule-description" style="margin: 0"><?php echo $stateCompany?></p>
           </td>
         </tr>
         <tr>
           <td>
-            <p class="clausule-description" style="margin: 0">Responsável: XXXXXXXX</p>
+            <p class="clausule-description" style="margin: 0">CEP: <?php echo $cepCompany?></p>
           </td>
           <td>
-            <p class="clausule-description" style="margin: 0">Cargo: XXXXXXXX</p>
+            <p class="clausule-description" style="margin: 0">Fone: <?php echo $phoneCompany?></p>
           </td>
         </tr>
         <tr>
           <td>
-            <p class="clausule-description" style="margin: 0">Supervisor de Estágio da UC: XXXXXXXX</p>
+            <p class="clausule-description" style="margin: 0">Responsável: <?php echo $responsavelCompany?></p>
           </td>
           <td>
-            <p class="clausule-description" style="margin: 0">Formação: XXXXXXXX</p>
+            <p class="clausule-description" style="margin: 0">Cargo: <?php echo $cargoResponsavel?></p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p class="clausule-description" style="margin: 0">Supervisor de Estágio da UC: <?php echo $supervisor?></p>
+          </td>
+          <td>
+            <p class="clausule-description" style="margin: 0">Formação: <?php echo $supervisorForma?></p>
           </td>
         </tr>
         <tr>
           <td colspan="2">
-            <p class="clausule-description" style="margin: 0">Local de estágio: XXXXXXXX</p>
+            <p class="clausule-description" style="margin: 0">Local de estágio: <?php echo $location?></p>
           </td>
         </tr>
       </table>
@@ -145,36 +145,36 @@
       <table cellspacing="0" style="width: 100%;">
         <tr>
           <td colspan="2">
-            <p class="clausule-description" style="margin: 0">XXXXXXXXXXX</p>
+            <p class="clausule-description" style="margin: 0">NOME DO ESTUDANTE</p>
           </td>
         </tr>
         <tr>
           <td>
-            <p class="clausule-description" style="margin: 0">CPF: XXXXXXXX</p>
+            <p class="clausule-description" style="margin: 0">CPF: <?php echo $studentCPF?></p>
           </td>
           <td>
-            <p class="clausule-description" style="margin: 0">Data de nascimento: XXXXXXXXXXX</p>
+            <p class="clausule-description" style="margin: 0">Data de nascimento: <?php echo $birthDate?></p>
           </td>
         </tr>
         <tr>
           <td colspan="2">
-            <p class="clausule-description" style="margin: 0">Endereço: XXXXXXXXXXX</p>
+            <p class="clausule-description" style="margin: 0">Endereço: <?php echo $studentAdress?></p>
           </td>
         </tr>
         <tr>
           <td>
-            <p class="clausule-description" style="margin: 0">Cidade/estado: XXXXXXXX - PR</p>
+            <p class="clausule-description" style="margin: 0">Cidade/estado: <?php echo $studentCity?> - PR</p>
           </td>
           <td>
-            <p class="clausule-description" style="margin: 0">Bairro: XXXXXXXX</p>
+            <p class="clausule-description" style="margin: 0">Bairro: <?php echo $studentNeighbor?></p>
           </td>
         </tr>
         <tr>
           <td>
-            <p class="clausule-description" style="margin: 0">CEP: XXXXXXXX</p>
+            <p class="clausule-description" style="margin: 0">CEP: <?php echo $studentZip?></p>
           </td>
           <td>
-            <p class="clausule-description" style="margin: 0">Fone: XXXXXXXX</p>
+            <p class="clausule-description" style="margin: 0">Fone: <?php echo $studentPhone?></p>
           </td>
         </tr>
         <tr>
@@ -182,13 +182,13 @@
             <table cellspacing="0" cellpadding="0">
               <tr>
                 <td style="border: 0; border-right: 1px solid black; padding: 0 5px">
-                  <p class="clausule-description" style="margin: 0">Curso: XXXXXXXX</p>
+                  <p class="clausule-description" style="margin: 0">Curso: <?php echo $studentCourse?></p>
                 </td>
                 <td style="border: 0; border-right: 1px solid black; padding: 0 5px">
-                  <p class="clausule-description" style="margin: 0">Ano Letivo: XXXXXXXX</p>
+                  <p class="clausule-description" style="margin: 0">Ano Letivo: <?php echo $schoolYear?></p>
                 </td>
                 <td style="border: 0; padding: 0 5px ">
-                  <p class="clausule-description" style="margin: 0">Período: XXXXXXXX</p>
+                  <p class="clausule-description" style="margin: 0">Período: <?php echo $period?></p>
                 </td>
               </tr>
             </table>
@@ -249,45 +249,45 @@
     </p>
 
     <p class="clausule-description">
-      <strong>CLÁUSULA 9</strong> - DO RECESSO DAS ATIVIDADES: É assegurado ao(a) estagiário(a), sempre que o estágio tenha duração igual ou superior a 1 (um) ano, período de recesso de 30 (trinta) dias, a ser gozado
+      <strong>CLÁUSULA 9</strong> - <strong>DO RECESSO DAS ATIVIDADES</strong>: É assegurado ao(a) estagiário(a), sempre que o estágio tenha duração igual ou superior a 1 (um) ano, período de recesso de 30 (trinta) dias, a ser gozado
       preferencialmente durante suas férias escolares.<br/>
       <strong>Parágrafo Primeiro</strong> - O recesso de que trata esta cláusula deverá ser remunerado quando o estagiário receber bolsa ou outra forma de contraprestação.<br/>
       <strong>Parágrafo Segundo</strong> - Os dias de recesso previstos nesta cláusula serão concedidos de maneira proporcional, caso o estágio tenha duração inferior a 1 (um) ano.
     </p>
 
     <p class="clausule-description">
-      CLÁUSULA 10 − DA BOLSA AUXÍLIO E DOS BENEFÍCIOS: O(A) ESTAGIÁRIO(A) ora acordado poderá ser remunerado e, neste caso, o(a) ESTUDANTE receberá uma bolsa mensal fixa e não reajustável no
+     <strong> CLÁUSULA 10</strong> − <strong>DA BOLSA AUXÍLIO E DOS BENEFÍCIOS</strong>: O(A) ESTAGIÁRIO(A) ora acordado poderá ser remunerado e, neste caso, o(a) ESTUDANTE receberá uma bolsa mensal fixa e não reajustável no
       valor de R$   xxxxxxxxxxx   , podendo, a exclusivo critério da UNIDADE CONCEDENTE, receber benefícios relacionados a transporte, alimentação e saúde, entre outros, não caracterizando vínculo
       empregatício, nos termos do art. 12 da Lei 11.788/2008, os quais  não caracterizam vinculo empregatício.
     </p>
 
     <p class="clausule-description">
-      CLÁUSULA 11 - DA VIGENCIA: O presente TCE terá vigência de   00 de fevereiro de 2019 à 00 de junho de 2019, podendo ser denunciado a qualquer tempo, unilateralmente, mediante comunicação
+     <strong>CLÁUSULA 11</strong> - <strong>DA VIGENCIA</strong>: O presente TCE terá vigência de   00 de fevereiro de 2019 à 00 de junho de 2019, podendo ser denunciado a qualquer tempo, unilateralmente, mediante comunicação
       escrita ou ser prorrogado através da emissão de um TERMO ADITIVO, sendo a soma dos Termos Aditivos não poderá ser superior a 2 (dois) anos, na forma do Art. 12 da Lei 11.788/2008.
     </p>
 
     <p class="clausule-description">
-      CLÁUSULA 12 − DO CANCELAMENTO: O presente Termo de Compromisso de Estágio será rescindido nas seguintes hipóteses:
-      a) a pedido do(a) estagiário(a);
-      b) por conclusão ou por interrupção do Curso na IES;
-      c) pela ausência de matrícula regular na IES;
-      d) quando da violação pelo(a) estagiário(a) de obrigação prevista no “Termo de Compromisso”;
-      e) pelo não comparecimento ao estágio, sem motivo justificado, por oito dias consecutivos, ou quinze dias intercalados;
-      f) por comportamento funcional ou social do(a) estagiário(a) incompatível com as normas do CONCEDENTE;
-      g) por interesse da Administração da CONCEDENTE, ou em atendimento a qualquer dispositivo de ordem legal ou regulamentar.
-      Parágrafo único – Entende-se por conclusão de Curso a que se refere à alínea “b” supra, a aprovação do(a) aluno(a)-estagiário(a) no último período do Curso, sem qualquer dependência,
-      exaurindo assim o currículo exigido para sua formação profissional, e por interrupção qualquer ato ou fato de iniciativa do estudante do CENTRO UNIVERSITÁRIO CAMPOS DE ANDRADE, ou mesmo decorrente
+      <strong>CLÁUSULA 12</strong> − <strong>DO CANCELAMENTO</strong>: O presente Termo de Compromisso de Estágio será rescindido nas seguintes hipóteses:<br/>
+      a) a pedido do(a) estagiário(a);<br/>
+      b) por conclusão ou por interrupção do Curso na IES;<br/>
+      c) pela ausência de matrícula regular na IES;<br/>
+      d) quando da violação pelo(a) estagiário(a) de obrigação prevista no “Termo de Compromisso”;<br/>
+      e) pelo não comparecimento ao estágio, sem motivo justificado, por oito dias consecutivos, ou quinze dias intercalados;<br/>
+      f) por comportamento funcional ou social do(a) estagiário(a) incompatível com as normas do CONCEDENTE;<br/>
+      g) por interesse da Administração da CONCEDENTE, ou em atendimento a qualquer dispositivo de ordem legal ou regulamentar.<br/>
+      <strong>Parágrafo único</strong> – Entende-se por <strong>conclusão</strong> de Curso a que se refere à alínea “b” supra, a aprovação do(a) aluno(a)-estagiário(a) no último período do Curso, sem qualquer dependência,
+      exaurindo assim o currículo exigido para sua formação profissional, e por <strong>interrupção</strong> qualquer ato ou fato de iniciativa do estudante do <strong>CENTRO UNIVERSITÁRIO CAMPOS DE ANDRADE</strong>, ou mesmo decorrente
       de circunstância que implique em solução de continuidade do Curso do(a) aluno(a)-estagiário(a), impondo o cancelamento ou suspensão do estágio.
     </p>
 
     <p class="clausule-description">
-      CLÁUSULA 13 - DA FORMALIZAÇÃO DO DESLIGAMENTO: Ocorrendo qualquer das hipóteses previstas nas alíneas “a”, “d”, “e”, “f” e “g”, da cláusula anterior, a CONCEDENTE comunicará por escrito o
+      <strong>CLÁUSULA 13</strong> - <strong>DA FORMALIZAÇÃO DO DESLIGAMENTO</strong>: Ocorrendo qualquer das hipóteses previstas nas alíneas “a”, “d”, “e”, “f” e “g”, da cláusula anterior, a CONCEDENTE comunicará por escrito o
       CENTRO UNIVERSITÁRIO CAMPOS DE ANDRADE, que, por sua vez, também se obriga igualmente a comunicar por escrito à CONCEDENTE o desligamento do aluno do Curso, seja qual for o motivo, inclusive por
       conclusão do mesmo.
     </p>
 
-    <p class="clausule-descriptio">
-      CLÁUSULA 14 – DO FORO: As partes elegem o foro da Comarca de Curitiba/PR, para dirimir quaisquer questões relativas ao presente instrumento, em detrimento de qualquer outro, por mais privilegiado que seja.
+    <p class="clausule-description">
+      <strong>CLÁUSULA 14</strong> – <strong>DO FORO</strong>: As partes elegem o foro da Comarca de Curitiba/PR, para dirimir quaisquer questões relativas ao presente instrumento, em detrimento de qualquer outro, por mais privilegiado que seja.
       E por estarem de comum acordo com as condições deste Termo de Compromisso de Estágio, as partes assinam (3) três de igual teor.
     </p>
 
